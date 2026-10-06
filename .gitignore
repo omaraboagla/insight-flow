@@ -1,0 +1,28 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+
+# User workbooks, generated samples, and local runtime state
+data/
+outputs/
+
+# Python environments and generated files
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local reports and browser artifacts
+reports/eval/
+reports/screenshots/
+playwright-report/
+test-results/
+*.log
+
+# OS/editor noise
+.DS_Store
+.idea/
+.vscode/
