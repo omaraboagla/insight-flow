@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Insight Flow | Spreadsheet workspace</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%2380dfb1'/%3E%3Cpath d='M10 12h20M10 20h20M10 28h20M17 12v16' stroke='%23121a17' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+<aside class="sidebar">
+  <a class="brand" href="/"><span class="brand-icon">▦</span><span>Insight Flow<small>SPREADSHEET WORKSPACE</small></span></a>
+  <div class="workspace-label">MY FILES <span>LOCAL</span></div>
+  <nav class="nav">
+    <button class="nav-item active" data-view="chat"><span>⌕</span> Ask</button>
+    <button class="nav-item" data-view="explorer"><span>▤</span> Browse files</button>
+    <button class="nav-item" data-view="map"><span>↔</span> Connections</button>
+  </nav>
+  <div class="source-heading">WORKBOOKS <button id="reload" title="Reload workbooks">↻</button></div>
+  <div id="table-list" class="table-list"></div>
+  <button id="upload-button" class="upload-button">＋ Add files</button>
+  <input type="file" id="file-input" accept=".xlsx,.xlsm,.xls,.csv" multiple hidden>
+  <div id="upload-status" aria-live="polite"></div>
+  <div class="sidebar-bottom"><span class="status-dot"></span> Local compute · DuckDB<small>Your files stay on this device.</small></div>
+</aside>
+<div class="main-shell">
+<header class="topbar">
+  <div class="breadcrumb">Insight Flow <span>/</span> <strong id="view-label">Ask</strong></div>
+  <div class="top-actions"><span class="cloud-badge"><span class="status-dot"></span> Ready</span><button id="privacy-button" class="quiet-button">Data sharing</button></div>
+</header>
+<main>
+<div id="global-message" role="status" hidden></div>
+<section id="chat-view" class="view">
+  <div class="page-heading"><div><h1>Ask about your spreadsheets</h1><p>Find totals, compare groups, and explore details in your files.</p></div><span id="dataset-pill" class="dataset-pill">Loading...</span></div>
+  <div id="welcome" class="welcome"><h2>Start with a question</h2><p>Your answers are calculated from the workbooks you add.</p><div id="example-chips" class="example-chips"></div></div>
+  <div id="conversation" class="conversation" aria-live="polite"></div>
+  <div id="progress" class="progress" hidden><div class="spinner"></div><span id="progress-message">Reading your question</span><span id="slow-message"></span></div>
+  <div class="composer-wrap"><form id="question-form" class="composer"><textarea id="question" rows="1" placeholder="Ask a question about your files..." maxlength="4000" aria-label="Your question"></textarea><button id="ask-button" type="submit" title="Send question">↑</button></form><div class="composer-note"><span>Numbers are calculated here. Selected details may be shared to prepare answers.</span></div></div>
+</section>
+<section id="explorer-view" class="view" hidden>
+  <div class="page-heading"><div><h1>Browse your files</h1><p>Open a worksheet and preview its contents.</p></div></div>
+  <div class="explorer-toolbar"><select id="explorer-table" aria-label="Choose a worksheet"></select><input id="preview-search" type="search" placeholder="Search this worksheet..."><span id="preview-count"></span></div>
+  <div id="column-cards" class="column-cards"></div><div id="preview-table" class="table-container"></div>
+  <div class="pagination"><button id="prev-page" class="quiet-button">← Previous</button><span id="page-label"></span><button id="next-page" class="quiet-button">Next →</button></div>
+</section>
+<section id="map-view" class="view" hidden>
+  <div class="page-heading"><div><h1>Connections between sheets</h1><p>See which sheets share information.</p></div><span id="relationship-count" class="dataset-pill"></span></div>
+  <div id="schema-map" class="schema-map"></div><div id="relationship-details" class="relationship-details"></div>
+</section>
+</main>
+</div>
+<div id="drop-overlay" class="drop-overlay" hidden><div>↓<h2>Drop files to add them</h2><p>Excel or CSV files, up to 20 MB each</p></div></div>
+<dialog id="privacy-dialog">
+  <div class="dialog-header"><h2>Data sharing</h2><button id="close-privacy" class="quiet-button">✕</button></div>
+  <p>To prepare answers, selected workbook details are sent to an online service. This can include column names, category labels, up to five sample values per column, and up to fifty result rows. Values are shortened to 60 characters. Your access key stays on this device.</p>
+  <label class="toggle-row"><span><strong>Share fewer details</strong><small>Share column names only. Matching names and categories may be less accurate.</small></span><input type="checkbox" id="schema-only"></label>
+  <label class="toggle-row"><span><strong>Keep result data here</strong><small>Do not send result rows. The short answer will be written on this device.</small></span><input type="checkbox" id="no-result-rows"></label>
+  <div class="privacy-footnote">DuckDB handles calculations on this device. Source workbooks are read-only. Selected details are shared only to prepare answers.</div>
+</dialog>
+<div id="toast" class="toast" hidden role="status"></div>
+</body>
+</html>
