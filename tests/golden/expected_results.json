@@ -1,0 +1,714 @@
+{
+  "g01": {
+    "revenue": 92650.61,
+    "units": 69
+  },
+  "g02": {
+    "average_line_total": 1425.39
+  },
+  "g03": {
+    "revenue": 67655.99
+  },
+  "g04": {
+    "revenue": 24994.62
+  },
+  "g05": {
+    "rows": [
+      [
+        "In-store",
+        67655.99
+      ],
+      [
+        "Online",
+        24994.62
+      ]
+    ]
+  },
+  "g06": {
+    "rows": [
+      [
+        "Bracelets",
+        11836.5
+      ],
+      [
+        "Earrings",
+        4038.96
+      ],
+      [
+        "Necklaces",
+        35412.92
+      ],
+      [
+        "Pendants",
+        7561.07
+      ],
+      [
+        "Rings",
+        29378.61
+      ],
+      [
+        "Watches",
+        4422.55
+      ]
+    ]
+  },
+  "g07": {
+    "rows": [
+      [
+        "Bracelets",
+        18.0
+      ],
+      [
+        "Earrings",
+        8.0
+      ],
+      [
+        "Necklaces",
+        14.0
+      ],
+      [
+        "Pendants",
+        10.0
+      ],
+      [
+        "Rings",
+        16.0
+      ],
+      [
+        "Watches",
+        3.0
+      ]
+    ]
+  },
+  "g08": {
+    "rows": [
+      [
+        "2026-01",
+        7029.1
+      ],
+      [
+        "2026-02",
+        9189.04
+      ],
+      [
+        "2026-03",
+        8437.97
+      ],
+      [
+        "2026-04",
+        3510.53
+      ],
+      [
+        "2026-05",
+        39644.27
+      ],
+      [
+        "2026-06",
+        12704.1
+      ],
+      [
+        "2026-07",
+        608.99
+      ],
+      [
+        "2026-08",
+        8066.64
+      ],
+      [
+        "2026-09",
+        3459.97
+      ]
+    ]
+  },
+  "g09": {
+    "rows": [
+      [
+        "Cuban Link Chain 20in",
+        11430.65
+      ],
+      [
+        "Diamond Tennis Necklace",
+        9989.0
+      ],
+      [
+        "Akoya Pearl Strand",
+        6870.55
+      ],
+      [
+        "Ruby Cocktail Ring",
+        6678.0
+      ],
+      [
+        "Men's Signet Ring",
+        6357.0
+      ]
+    ]
+  },
+  "g10": {
+    "rows": [
+      [
+        "Jackson Foster",
+        13260.05
+      ],
+      [
+        "Henry Mercer",
+        12035.0
+      ],
+      [
+        "Nora Rossi",
+        8058.74
+      ],
+      [
+        "Amelia Brooks",
+        6518.0
+      ],
+      [
+        "Noah Lindqvist",
+        6375.54
+      ]
+    ]
+  },
+  "g11": {
+    "rows": [
+      [
+        "Sofia Marchetti",
+        28813.89
+      ],
+      [
+        "Hannah Kowalski",
+        24994.62
+      ],
+      [
+        "James Whitfield",
+        16402.27
+      ]
+    ]
+  },
+  "g12": {
+    "rows": [
+      [
+        "Bracelets",
+        0.5646
+      ],
+      [
+        "Earrings",
+        0.538
+      ],
+      [
+        "Necklaces",
+        0.5325
+      ],
+      [
+        "Pendants",
+        0.5798
+      ],
+      [
+        "Rings",
+        0.5252
+      ],
+      [
+        "Watches",
+        0.4897
+      ]
+    ]
+  },
+  "g13": {
+    "rows": [
+      [
+        "Akoya Pearl Strand",
+        1,
+        2,
+        "Hong Kong Pearl Trading"
+      ],
+      [
+        "Cuban Link Chain 20in",
+        0,
+        2,
+        "Milano Oro S.p.A."
+      ],
+      [
+        "Diamond Tennis Necklace",
+        0,
+        1,
+        "Antwerp Diamond Partners"
+      ],
+      [
+        "Gold Hoop Earrings",
+        1,
+        2,
+        "Milano Oro S.p.A."
+      ],
+      [
+        "Pearl Bracelet",
+        0,
+        2,
+        "Hong Kong Pearl Trading"
+      ],
+      [
+        "Sapphire Halo Ring",
+        1,
+        2,
+        "Jaipur Gem House"
+      ]
+    ]
+  },
+  "g14": {
+    "value": 9902.46
+  },
+  "g15": {
+    "rows": [
+      [
+        "PO-2026-038",
+        2159.82
+      ],
+      [
+        "PO-2026-039",
+        2136.84
+      ],
+      [
+        "PO-2026-040",
+        5605.8
+      ]
+    ]
+  },
+  "g16": {
+    "rows": [
+      [
+        "Antwerp Diamond Partners",
+        11736.78
+      ],
+      [
+        "Bangkok Silverworks Ltd",
+        8236.76
+      ],
+      [
+        "Cape Platinum Refiners",
+        4556.85
+      ],
+      [
+        "Hong Kong Pearl Trading",
+        2005.83
+      ],
+      [
+        "Istanbul Gold Atelier",
+        2726.74
+      ],
+      [
+        "Jaipur Gem House",
+        26581.02
+      ],
+      [
+        "Khan El-Khalili Gold Co.",
+        8735.05
+      ],
+      [
+        "Milano Oro S.p.A.",
+        14344.71
+      ],
+      [
+        "Swiss Time Components AG",
+        3220.45
+      ]
+    ]
+  },
+  "g17": {
+    "rows": [
+      [
+        "Daniel Okafor",
+        6749.58
+      ],
+      [
+        "Hannah Kowalski",
+        24994.62
+      ],
+      [
+        "James Whitfield",
+        16402.27
+      ],
+      [
+        "Lucas Bernard",
+        15690.25
+      ],
+      [
+        "Sofia Marchetti",
+        28813.89
+      ]
+    ]
+  },
+  "g18": {
+    "rows": [
+      [
+        "Bronze",
+        2827.07
+      ],
+      [
+        "Gold",
+        32683.87
+      ],
+      [
+        "Silver",
+        23785.88
+      ],
+      [
+        "VIP",
+        33353.79
+      ]
+    ]
+  },
+  "g19": {
+    "rows": [
+      [
+        "Boston",
+        6607.0
+      ],
+      [
+        "Brooklyn",
+        20091.61
+      ],
+      [
+        "Hoboken",
+        129.99
+      ],
+      [
+        "Jersey City",
+        13105.1
+      ],
+      [
+        "New York",
+        22326.87
+      ],
+      [
+        "Newark",
+        3715.99
+      ],
+      [
+        "Providence",
+        8058.74
+      ],
+      [
+        "Stamford",
+        18615.31
+      ]
+    ]
+  },
+  "g20": {
+    "rows": [
+      [
+        "Necklaces",
+        35412.92
+      ]
+    ]
+  },
+  "g21": {
+    "revenue": 7029.1
+  },
+  "g22": {
+    "revenue": 9189.04
+  },
+  "g23": {
+    "revenue": 24656.11
+  },
+  "g24": {
+    "count": 13
+  },
+  "g25": {
+    "average_discount": 0.0162
+  },
+  "g26": {
+    "stock_units": 339
+  },
+  "g27": {
+    "rows": [
+      "Amethyst Beaded Bracelet",
+      "Emerald Drop Earrings",
+      "Emerald Station Necklace",
+      "Morganite Rose Gold Ring",
+      "Ruby Cocktail Ring",
+      "Ruby Stud Earrings",
+      "Sapphire Drop Earrings",
+      "Sapphire Halo Ring",
+      "Sapphire Teardrop Pendant",
+      "Vintage Emerald Ring"
+    ]
+  },
+  "g28": {
+    "rows": [
+      [
+        "Bronze",
+        13
+      ],
+      [
+        "Gold",
+        6
+      ],
+      [
+        "Silver",
+        10
+      ],
+      [
+        "VIP",
+        3
+      ]
+    ]
+  },
+  "g29": {
+    "count": 22
+  },
+  "g30": {
+    "rows": [
+      [
+        "Finance",
+        59000.0
+      ],
+      [
+        "Management",
+        80000.0
+      ],
+      [
+        "Operations",
+        43000.0
+      ],
+      [
+        "Sales",
+        42600.0
+      ],
+      [
+        "Workshop",
+        64000.0
+      ]
+    ]
+  },
+  "g31": {
+    "count": 3
+  },
+  "g32": {
+    "rows": [
+      [
+        "Cancelled",
+        2238.48
+      ],
+      [
+        "Partial",
+        1022.28
+      ],
+      [
+        "Pending",
+        9902.46
+      ],
+      [
+        "Received",
+        68980.97
+      ]
+    ]
+  },
+  "g33": {
+    "rows": [
+      "Henry Mercer"
+    ]
+  },
+  "g34": {
+    "rows": [
+      [
+        "Bank Transfer",
+        9575.72
+      ],
+      [
+        "Cash",
+        18668.1
+      ],
+      [
+        "Credit Card",
+        23318.49
+      ],
+      [
+        "Debit Card",
+        12398.94
+      ],
+      [
+        "Financing",
+        18322.27
+      ],
+      [
+        "PayPal",
+        10367.09
+      ]
+    ]
+  },
+  "g35": {
+    "average_customer_spend": 3706.02
+  },
+  "f01": {
+    "revenue": 24656.11
+  },
+  "f02": {
+    "rows": [
+      [
+        "Necklaces",
+        35412.92
+      ],
+      [
+        "Rings",
+        29378.61
+      ],
+      [
+        "Bracelets",
+        11836.5
+      ],
+      [
+        "Pendants",
+        7561.07
+      ],
+      [
+        "Watches",
+        4422.55
+      ],
+      [
+        "Earrings",
+        4038.96
+      ]
+    ]
+  },
+  "f03": {
+    "revenue": 24994.62
+  },
+  "f04": {
+    "rows": [
+      [
+        "Cuban Link Chain 20in",
+        11430.65
+      ],
+      [
+        "Diamond Tennis Necklace",
+        9989.0
+      ],
+      [
+        "Akoya Pearl Strand",
+        6870.55
+      ]
+    ]
+  },
+  "f05": {
+    "rows": [
+      [
+        "2026-01",
+        7029.1
+      ],
+      [
+        "2026-02",
+        9189.04
+      ],
+      [
+        "2026-03",
+        8437.97
+      ],
+      [
+        "2026-04",
+        3510.53
+      ],
+      [
+        "2026-05",
+        39644.27
+      ],
+      [
+        "2026-06",
+        12704.1
+      ],
+      [
+        "2026-07",
+        608.99
+      ],
+      [
+        "2026-08",
+        8066.64
+      ],
+      [
+        "2026-09",
+        3459.97
+      ]
+    ]
+  },
+  "f06": {
+    "rows": [
+      [
+        "VIP",
+        33353.79
+      ],
+      [
+        "Gold",
+        32683.87
+      ],
+      [
+        "Silver",
+        23785.88
+      ],
+      [
+        "Bronze",
+        2827.07
+      ]
+    ]
+  },
+  "f07": {
+    "rows": [
+      [
+        "Akoya Pearl Strand",
+        1,
+        2,
+        "Hong Kong Pearl Trading"
+      ],
+      [
+        "Cuban Link Chain 20in",
+        0,
+        2,
+        "Milano Oro S.p.A."
+      ],
+      [
+        "Diamond Tennis Necklace",
+        0,
+        1,
+        "Antwerp Diamond Partners"
+      ],
+      [
+        "Gold Hoop Earrings",
+        1,
+        2,
+        "Milano Oro S.p.A."
+      ],
+      [
+        "Pearl Bracelet",
+        0,
+        2,
+        "Hong Kong Pearl Trading"
+      ],
+      [
+        "Sapphire Halo Ring",
+        1,
+        2,
+        "Jaipur Gem House"
+      ]
+    ]
+  },
+  "f08": {
+    "rows": [
+      [
+        "Daniel Okafor",
+        6749.58
+      ],
+      [
+        "Hannah Kowalski",
+        24994.62
+      ],
+      [
+        "James Whitfield",
+        16402.27
+      ],
+      [
+        "Lucas Bernard",
+        15690.25
+      ],
+      [
+        "Sofia Marchetti",
+        28813.89
+      ]
+    ]
+  }
+}
