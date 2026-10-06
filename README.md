@@ -8,19 +8,7 @@ Insight Flow is a local-first data and AI application built around a common stor
 
 ## How it works
 
-```mermaid
-flowchart LR
-    A[Excel and CSV workbooks] --> B[ETL: extract, clean, infer types]
-    B --> C[In-memory DuckDB tables]
-    C --> D[Schema cards and relationships]
-    Q[Plain-English question] --> R[RAG: retrieve relevant fields and values]
-    D --> R
-    R --> P[Structured SQL plan]
-    P --> G[SQL safety checks]
-    G --> X[Run query locally]
-    X --> V[Verify answer against results]
-    V --> O[Answer, table, chart, and citations]
-```
+`Excel / CSV → ETL → Schema + relationships → RAG retrieval → SQL safety checks → DuckDB → Verified answer + citations`
 
 ### The data and AI approach
 
