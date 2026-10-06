@@ -1,0 +1,11 @@
+{
+  "verdict": "MOCK ONLY: transport fixture, not an app evaluation",
+  "response": {
+    "status": "answer",
+    "answer": "Fixture response for harness transport validation.",
+    "rows": [],
+    "verified": false,
+    "source": null,
+    "usage": {"calls": 0, "total_tokens": 0}
+  }
+}
